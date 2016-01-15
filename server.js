@@ -34,13 +34,13 @@ store.defineType('employee', {
     job: {type: String},
     email: {type: String},
     phone: {type: String},
-    times: {
-        link: "time",
+    workrecords: {
+        link: "workrecord",
         isArray: true
     }
 });
 
-store.defineType('time', {
+store.defineType('workrecord', {
     owner: {type: String},
     project: {type: String},
     date: {type: String},
